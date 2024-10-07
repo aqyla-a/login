@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <form action="">
+        <h2>login</h2>
+        <label for="username">username:</label>
+        <input type="text" id="username"><br>
+        <label for="password">password:</label>
+        <input type="password" id="password"><br>
+        <button type="submit">login</button>
+    </form>
+    
+</body>
+</html>
+
+
+
+
+form {
+    width: 300px;
+    padding: 30px;
+    background-color: #9da0ff;
+    margin: 10% auto;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form label {
+    font-weight: 500;
+    width: 100px;
+}
+form input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #201d2e;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+form button {
+    width: 120px;
+    height: 40px;
+    background: #333;
+    color: rgb(203, 193, 178);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+.body {
+    background-color: #9f95cc;
+}
